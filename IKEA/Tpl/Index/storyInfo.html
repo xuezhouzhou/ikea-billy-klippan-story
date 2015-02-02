@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<link href="__PUBLIC__/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body{padding:20px;}
+#img-box{ overflow-x:scroll; border:1px solid #ccc; border-radius:5px; padding:10px;}
+#img-box .inner{width:500%}
+#img-box img{display:block;float:left;height:300px; margin-right:10px; border:1px solid #ccc; padding:1px;}
+</style>
+</head>
+<body>
+<div id="story-info">
+	<div class="panel panel-default">
+  	<div class="panel-heading">故事提交者资料</div>
+   	<div class="panel-body">
+    	<p><strong>姓名：</strong>{$storyInfo.name}</p>
+      <p><strong>居住国：</strong>{$storyInfo.addr}</p>
+      <p><strong>电子邮件：</strong>{$storyInfo.email}</p>
+    </div>
+ 	</div>
+  
+  <div class="panel panel-default">
+  	<div class="panel-heading">故事详情</div>
+   	<div class="panel-body">
+    	<p><strong>标题：</strong></p>
+      <p>{$storyInfo.title}</p>
+      <p><strong>内容：</strong></p>
+      <div>{$storyInfo.story}</div>
+    </div>
+ 	</div>
+  
+  <div class="panel panel-default">
+  	<div class="panel-heading">故事相关图片</div>
+   	<div class="panel-body">
+    	<if condition="($storyInfo['file'] eq 0)">
+				<div id="img-box">无</div>
+			<else/>
+				<div id="img-box">{$storyInfo['file']}</div>
+      </if>
+    </div>
+ 	</div>
+</div>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script>
+$(function(){
+	var $imgBox = $('#img-box');
+	var imgStr = $imgBox.text();
+	var html = '<div class="inner">';
+	if(imgStr!='无'){
+		var imgArr = imgStr.split(',');
+		for(var i=0;i<imgArr.length;i++){
+			html += '<img src="__APP__/Index/images/?ID='+ imgArr[i] +'" />';
+		}
+		html += '</div>'
+		$imgBox.text('');
+		$imgBox.append(html);
+	}
+});
+</script>
+</body>
+</html>

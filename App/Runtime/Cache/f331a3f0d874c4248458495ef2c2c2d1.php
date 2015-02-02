@@ -1,0 +1,152 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>说出自己的故事</title>
+<link href="__PUBLIC__/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="__PUBLIC__/css/style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="__PUBLIC__/favicon.ico">
+<style type="text/css">
+.verify{cursor:pointer;}#ajax-loader{display:none;}.img-code-trips{padding-left:15px;font-size:12px;}.agreement{font-size:12px;}.agreement a{font-weight:800;}#btn-send{font-weight:800;}#body-hover{width:100%;height:100%;background:#000;position:fixed;left:0;top:0;z-index:999;filter:alpha(Opacity=80);-moz-opacity:0.8;opacity:0.8;display:none;}#alert-box{width:260px;height:160px;padding:20px;position:fixed;left:50%;top:50%;margin-left:-150px;margin-top:-100px;z-index:999;box-shadow:0 0 20px 0 #ccc;border-radius:10px;background:#fff;display:none;text-align:center;}#alert-box p{margin-top:20px;}#tips-success{width:50%;border-radius:5px;border:2px solid #060;color:#060;padding-left:6px;display:none;}::-webkit-scrollbar{background-color:#f5f5f5;border-left:1px solid #d2d2d2;width:16px;}::-webkit-scrollbar:horizontal{height:0}::-webkit-scrollbar:vertical{width:12px;z-index:999}::-webkit-scrollbar-track{background-clip:padding-box;border:solid transparent;border-width:0 0 0 4px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.2);background-clip:padding-box;min-height:28px;padding:100px 0 0;box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.4);box-shadow:inset 1px 1px 1px rgba(0,0,0,.25)}::-webkit-scrollbar-thumb:horizontal{box-shadow:inset 1px 1px 0 rgba(0,0,0,.1),inset -1px 0 0 rgba(0,0,0,.07)}
+</style>
+</head>
+<body>
+<div id="main-bg"></div>
+<div id="header">
+	<div class="header-inner">
+  	<div id="logo">
+   		<a href="http://billy-klippan.com">BILLY &amp; KLIPPAN</a>
+    	<p>— share your story</p>
+   	</div>
+  </div>
+</div>
+<div id="nav">
+	<div class="nav-inner">
+  	<a class="cur" href="__APP__/">说出自己的故事</a>
+  </div>
+</div>
+<div id="content">
+	<div class="content-inner">
+  	<div id="main" class="box">
+    	<h1>说出自己的故事 </h1>
+      <p>欲向  BILLY 毕利 和  KLIPPAN 克利帕 博客以及宜家博物馆投稿，请填写下列表格。可附上不多于五张图片，令您的故事更加生动。当然，也可以纯文字描述。</p>
+      <p>只要是您与 BILLY 毕利、KLIPPAN 克利帕 之间的故事，我们都乐于倾听。</p>
+      <form id="story-info-form" action="__APP__/Index/addStory" method="post" enctype="multipart/form-data" onSubmit="return false;">
+      	<div style="width:50%;">
+          <div class="form-group">
+            <label for="name">姓名</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="姓名">
+          </div>
+          <div class="form-group">
+            <label for="email">电子邮件</label>
+            <input type="text" class="form-control" id="email" name="email" placeholder="电子邮件">
+          </div>
+          <div class="form-group">
+            <label for="addr">居住国</label>
+            <input type="text" class="form-control" id="addr" name="addr" placeholder="居住国">
+          </div>
+          <div class="form-group">
+            <label for="title">主题</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="主题">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="story">您的故事(3000字以内)</label>
+          <textarea class="form-control" rows="6" name="story" id="story"></textarea>
+        </div>
+        
+        <div style="width:50%">
+          <div class="form-group">
+            <label for="img1">上传图片(2MB以内)</label>
+            <input type="file" id="img1" name="img1" class="form-control img-upload">
+          </div>
+          <div class="form-group">
+            <label for="img2">上传图片(2MB以内)</label>
+            <input type="file" id="img2" name="img2" class="form-control img-upload">
+          </div>
+          <div class="form-group">
+            <label for="img3">上传图片(2MB以内)</label>
+            <input type="file" id="img3" name="img3" class="form-control img-upload">
+          </div>
+          <div class="form-group">
+            <label for="img4">上传图片(2MB以内)</label>
+            <input type="file" id="img4" name="img4" class="form-control img-upload">
+          </div>
+          <div class="form-group">
+            <label for="img5">上传图片(2MB以内)</label>
+            <input type="file" id="img5" name="img5" class="form-control img-upload">
+          </div>
+          <div class="form-group">
+          	<div style="margin-bottom:10px;"><img class="verify" src="__APP__/Public/verify" onclick="this.src='__APP__/Public/verify?'+parseInt(Math.random() * 10000)"/><span class="img-code-trips">看不清？点击图片切换验证码。</span></div>
+            <input type="text" id="verify" name="verify" class="form-control" placeholder="验证码">
+            <p></p>
+          </div>
+          <div class="checkbox agreement">
+          	<label><input id="agree-check" type="checkbox" >我已阅读并接受所有<a href="javascript:void(0)" class="tkxz">条款及细则</a></label>
+          </div>
+       	</div>
+        <div>
+        	<input id="btn-send" type="submit" value="提交" class="btn btn-default">
+          <img id="ajax-loader" src="__PUBLIC__/images/ajax-loader.gif">
+        </div>
+        <div>
+        	<p id="tips-success"></p>
+        </div>
+     	</form>
+  			<p><strong>如我们需要更多详细信息，宜家博物馆可能会与您联系。</strong></p>
+        <p>不知该分享些什么？以下内容也许能给您一些启发：</p>
+        <p><strong>BILLY 毕利</strong></p>
+        <ol>
+        	<li>您在 BILLY 毕利 书柜里放了些什么？它虽然是个书柜，却不是只能用来放书。</li>
+          <li>您如何整理您的书籍？按照作者、主题、颜色、尺寸分类——还是根本不分类？</li>
+          <li>您如何使用 BILLY 毕利 书柜？是否采用了不同的方式，或是进行了改造？请将前后变化的照片发送给我们。</li>
+        </ol>
+        <p><strong>KLIPPAN 克利帕</strong></p>
+        <ol>
+        	<li>您的 KLIPPAN 克利帕 沙发上发生过什么趣事？</li>
+          <li>KLIPPAN 克利帕 沙发如何融入您日常生活？您是何时买下它的？您将它摆放在哪里？您选择了哪种沙发套？您是否曾将沙发移到一些特别或是奇特的地方？</li>
+          <li>您如何使用 KLIPPAN 克利帕 沙发？是否采用了不同的方式，或是进行了改造？请将前后变化的照片发送给我们。</li>
+        </ol>
+				<p>请注意：所有提交内容将考虑发表，但不保证发表。宜家具有发表决定权。提交前请阅读我们的<a href="javascript:void(0)" class="tkxz">条款及细则</a>以及<a href="__APP__/Index/privacyPolicy">数据隐私政策</a>。</p>
+        <p><strong>感谢你的积极参与！</strong></p>
+    </div>
+    
+    		<div id="side" class="box">
+    	<h2>有故事想要分享？</h2>
+      <div class="t"><img src="__PUBLIC__/images/BILLY-and-KLIPPAN-intro-image.jpg"></div>
+      <p>此博客专门收集并分享 BILLY 毕利 和 KLIPPAN 克利帕 的故事。只要是您与 BILLY 毕利 和 KLIPPAN 克利帕 之间的故事，我们都乐于倾听。</p>
+      <p>KLIPPAN 克利帕 沙发和 BILLY 毕利 书柜多年来一直是宜家家具系列的重要产品。这些年来，它们已成为最受欢迎的宜家家具，我们相信您一定有与 KLIPPAN 克利帕 和 BILLY 毕利 的故事要分享。</p>
+      <p>最佳故事除了发布在此博客上，亦会展示在首家独一无二的宜家博物馆内，该博物馆位于瑞典阿姆霍特原来的宜家商场</p>
+    	<div id="ikea-link">
+      	<a target="_blank" href="http://www.ikea.cn/"><img src="__PUBLIC__/images/IKEA-logo.png"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="footer">
+	<div class="footer-inner">
+  	<ul class="u1">
+      <li><a href="__APP__/Index/privacyPolicy">数据隐私政策</a></li>
+      <li><a href="__APP__/Index/termsOfuse">条款细则</a></li>
+    </ul>
+    
+  </div>
+  <div class="copyright">© Inter IKEA Systems B.V. 2014</div>
+</div>
+<a href="javascript:void(0)" id="back-to-top"></a>
+<div id="body-hover"></div>
+<div id="alert-box">
+	<p><strong id="alert-tips"></strong></p>
+  <div style="margin-top:12px;">
+  	<button id="btn-close" type="button" class="btn btn-primary">关闭</button>
+ 	</div>
+</div>
+
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script src="__PUBLIC__/js/jquery.form.min.js"></script>
+<script src="__PUBLIC__/js/common.js"></script>
+<script src="__PUBLIC__/js/index.js"></script>
+<script>var APP_PATH = '__APP__';</script>
+</body>
+</html>

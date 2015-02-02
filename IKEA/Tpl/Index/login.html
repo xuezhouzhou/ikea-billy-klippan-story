@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>IKEA毕利、克利帕故事收集后台</title>
+<link href="__PUBLIC__/bootstrap-3.0.3/css/bootstrap.min.css" rel="stylesheet">
+<link href="__PUBLIC__/css/admin.css" rel="stylesheet">
+<style type="text/css">
+.loginBox{ 
+	padding:0 10px; 
+	width:220px; 
+	margin-left:-110px;  
+	height:240px; 
+	margin-top:-150px; 
+	position:absolute; 
+	left:50%; 
+	top:50%; 
+	border:1px solid #ccc; 
+	border-radius:5px; 
+	background:#fff; 
+}
+.unameWrap,
+.pwdWrap,
+.verifyWrap{
+	height:36px;
+}
+.pwdWrap{ 
+	margin-top:5px;
+}
+
+.verifyWrap{ 
+	width:68px; 
+	margin-top:5px; 
+}
+
+.loginBox h1{ 
+	font-size:20px; 
+	text-align:center;
+}
+
+.verify{ 
+	position:relative; 
+	top:8px; 
+	left:10px; 
+	cursor:pointer;
+}
+
+.fl{ 
+	float:left; 
+	display:block; 
+}
+
+.loginWrap{ 
+	margin-top:5px;
+}
+</style>
+</head>
+<body>
+<div class="loginBox">
+	<h1>IKEA 登录验证</h1>
+	<div class="unameWrap"><input id="uname" type="text" class="form-control" placeholder="用户名"></div>
+	<div class="pwdWrap"><input id="pwd" type="password" class="form-control" placeholder="密码"></div>
+	<div class="clearfix">
+		<div class="verifyWrap fl"><input id="verify" type="text" class="form-control" placeholder="验证码"></div>
+		<img title="点击刷新" class="verify fl" src="__APP__/Public/verify" onclick="this.src='__APP__/Public/verify?'+parseInt(Math.random() * 10000)"/>
+	</div>
+	<div class="loginWrap">
+		<a href="#" id="btn-login" class="btn btn-primary btn-block btn-large">登录</a>
+	</div>
+</div>
+<script src="__PUBLIC__/js/jquery.min.js"></script>
+<script type="text/jscript">
+$(function(){
+	function shake($panel){
+		var box_left = $panel.css('left');
+		var box_left = box_left.replace('px','');
+		
+		for(var i=1;i<=4; i++){
+			$panel.animate({left:box_left-(40-10*i)},50);
+			$panel.animate({left:box_left-(10*i-40)},50);
+		}
+	}
+	
+	function check(){
+		var uname = $('#uname').val();
+		var pwd = $('#pwd').val();
+		var verify = $('#verify').val();
+		if(uname==''){
+			alert('请输入用名!');	
+		}else if(pwd==''){
+			alert('请输入密码！');
+		}else if(verify==''){
+			alert('请输入验证码！');
+		}else{
+			$.post('__APP__/Public/checkLogin',{'uname':uname,'pwd':pwd,'verify':verify},function(data){
+				if(data=="success"){
+					window.location.href = '__APP__';
+				}else{
+					shake($(".loginBox"));
+				}
+			})	
+		}
+	}
+	
+	$(window).keydown(function(event){
+  	if(event.keyCode=='13'){
+			check();
+		}
+	});
+	
+	$('#btn-login').click(function(){
+		check();
+	});
+	
+});
+</script>
+</body>
+</html>

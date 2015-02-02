@@ -1,0 +1,177 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 14px/1.571em Verdana, Geneva, sans-serif;	
+}
+a{
+	color: #A2B028;
+	text-decoration:none;
+	font-weight:bold;
+}
+a:hover{
+	color: #A2B028;
+}
+.box{
+	border-radius:5px;
+	box-shadow:0 0 10px 0 #333; 
+	background:#fff;
+}
+#main-bg{
+	background:url(../images/bg-body.jpg);
+	height:1366px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:-1;
+}
+#header{
+	height:173px;
+	background:url(../images/bg-pattern.jpg);	
+}
+.header-inner{
+	width:940px;
+	margin:0 auto;
+	height:179px;	
+}
+#logo{
+	width:210px;
+	padding-top:32px;
+}
+#logo a{
+	font-size: 43px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	line-height: 1em;
+	color: #A2B028;
+	text-transform: uppercase;
+	text-decoration:none;
+}
+#logo p{
+	color: #FBFBFB;
+	line-height: 20px;
+	margin: 0.3em 0;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+#nav{
+	height:48px;
+	background:#FBFBFB;
+}
+.nav-inner{
+	width:940px;
+	margin:0 auto;
+	height:48px;	
+}
+#nav a{
+	display:block;
+	float:left;
+	height:48px;
+	line-height:48px;
+	text-decoration:none;
+	color:#2a2e31;
+	font-weight:800;
+}
+#nav a:hover,
+#nav a.cur{
+	color: #A2B028;
+}
+
+#content{
+	margin-top:30px;	
+}
+#content .content-inner{
+	width:940px;
+	margin:0 auto;
+	overflow:hidden;	
+}
+#main{
+	width:620px;
+	padding:20px;
+	float:left;
+	padding-bottom:50px;
+}
+#main h1{
+	color: #2a2e31;
+	font-size: 20px;
+	line-height: 1.4em;
+}
+#main p{
+	font-size:12px;
+	line-height:2em;
+	margin:10px 0;
+}
+#side{
+	width:300px;
+	float:right;
+	
+}
+#side h2{
+	font-size:12px;
+	line-height:2em;
+	margin:10px 0;
+	padding:0 20px;		
+}
+#side .t{
+	padding:0 20px;		
+}
+#side p{
+	font-size:12px;
+	line-height:2em;
+	margin:15px 0;
+	padding:0 20px;		
+}
+#main ol{
+	padding-left: 25px;
+	padding-right: 14px;
+	font-size:12px;
+}
+#ikea-link{
+	border-top:1px solid #ddd;
+	padding:20px;	
+}
+#footer{
+	background:url(../images/bg-pattern.jpg);
+	margin-top:168px;
+}
+#footer .footer-inner{
+	width:940px;
+	margin:0 auto;
+	padding-top:30px;
+	padding-left:10px;
+	font-size:12px;
+}
+#footer ul li{
+	list-style:none;
+}
+#footer a{
+	line-height:1.8em;
+	color:#fff;
+	font-size:12px;	
+}
+#footer a:hover{
+	color:#5e5e63;
+	text-decoration:none;
+}
+#footer .copyright{
+	text-align:center;
+	color:#fff;
+	line-height:48px;
+}
+#back-to-top{
+	border-radius: 4px;
+	background: #000000 url('../images/sprite.png') 12px -394px no-repeat;
+	display: none;
+	opacity: .7;
+	height: 46px;
+	width: 46px;
+	z-index: 999;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+#back-to-top:hover{
+	opacity:1;
+}

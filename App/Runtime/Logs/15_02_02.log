@@ -1,0 +1,665 @@
+[ 2015-02-02T10:37:05+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057703s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000970s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000939s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000859s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003961s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001429s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2015-02-02T10:37:05+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.049624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.049820s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+
+[ 2015-02-02T11:32:36+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000629s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000578s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001302s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2015-02-02T11:32:36+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002102s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002303s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-02-02T11:53:59+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017610s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000653s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001276s ]
+
+[ 2015-02-02T11:53:59+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001160s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+
+[ 2015-02-02T11:54:01+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000355s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001318s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-02-02T11:54:01+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001046s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+
+[ 2015-02-02T11:54:29+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017290s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002453s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001113s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2015-02-02T11:54:29+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002831s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2015-02-02T11:54:43+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011977s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000328s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2015-02-02T11:54:43+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000776s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000879s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-02-02T11:54:46+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013503s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000336s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000291s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001332s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000530s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000617s ]
+
+[ 2015-02-02T11:54:46+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-02-02T11:54:48+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019223s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000628s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001234s ]
+
+[ 2015-02-02T11:54:48+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001421s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001560s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+
+[ 2015-02-02T11:55:07+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000352s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000204s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-02-02T11:55:07+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+
+[ 2015-02-02T11:55:52+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001016s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.013326s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cef547d0a60','薛周周','xzzphp@163.com','中国','测试主题','测试内容','54cef547cd9cd.png,54cef547d057d.png',1422849351) [ RunTime:0.000334s ]
+
+[ 2015-02-02T11:55:57+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000680s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.002188s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cef54cb96d3','薛周周','xzzphp@163.com','中国','测试主题','测试内容','54cef54cb8a68.png,54cef54cb900e.png',1422849356) [ RunTime:0.000357s ]
+
+[ 2015-02-02T11:58:39+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012427s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000586s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2015-02-02T11:58:39+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001070s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+
+[ 2015-02-02T11:58:40+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000621s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000574s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000535s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001130s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2015-02-02T11:58:40+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001569s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003253s ]
+
+[ 2015-02-02T11:59:08+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000952s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001040s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.011670s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cef60c3ef8c','薛周周','xzzphp@163.com','中国','测试主题','测试内容','54cef60c3e5d8.png,54cef60c3eab4.png',1422849548) [ RunTime:0.000377s ]
+
+[ 2015-02-02T11:59:12+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012412s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000638s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000577s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002003s ]
+
+[ 2015-02-02T11:59:12+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000713s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+
+[ 2015-02-02T12:01:41+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015486s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000853s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000584s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002735s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2015-02-02T12:01:41+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001088s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+
+[ 2015-02-02T12:01:42+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016127s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000667s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002528s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001311s ]
+
+[ 2015-02-02T12:01:42+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001517s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001666s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+
+[ 2015-02-02T12:02:16+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001258s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001412s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.001809s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cef6c8775bf','薛周周','xzzphp@163.com','中国','测试主题','测试内容','0',1422849736) [ RunTime:0.000418s ]
+
+[ 2015-02-02T12:03:15+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000808s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000812s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003547s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-02-02T12:03:15+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001574s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001745s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+
+[ 2015-02-02T12:03:16+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014876s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000438s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2015-02-02T12:03:16+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001523s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001668s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+
+[ 2015-02-02T12:03:49+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000650s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.001753s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cef7246d471','雪中租后','xzzphp@163.com','中国','测试主题','KLIPPAN 克利帕 沙发和 BILLY 毕利 书柜多年来一直是宜家家具系列的重要产品。这些年来，它们已成为最受欢迎的宜家家具，我们相信您一定有与 KLIPPAN 克利帕 和 BILLY 毕利 的故事要分享。','54cef7246cf0f.png',1422849828) [ RunTime:0.000394s ]
+
+[ 2015-02-02T12:29:52+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000629s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002479s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001033s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-02-02T12:29:52+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001417s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001549s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-02-02T12:29:53+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012459s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002506s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2015-02-02T12:29:53+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+
+[ 2015-02-02T12:30:26+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000950s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.002028s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cefd626ab83','薛周周','xzzphp@163.com','中国','测试主题','测试故事','54cefd626a636.png',1422851426) [ RunTime:0.000305s ]
+
+[ 2015-02-02T12:31:40+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013010s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002481s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001198s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2015-02-02T12:31:40+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+
+[ 2015-02-02T12:32:15+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000686s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.011134s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cefdcf427d2','张三','zhangsan@163.com','中国','测试主推','测试尼日是的风景都是福建省','54cefdcf421c6.png',1422851535) [ RunTime:0.000284s ]
+
+[ 2015-02-02T12:32:24+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019126s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000651s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000584s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002510s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2015-02-02T12:32:24+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-02-02T12:32:28+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013648s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000360s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001349s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-02-02T12:32:28+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001649s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-02-02T12:32:53+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001695s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.001763s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cefdf5553ac','张三','xzzphp@163.com','中国','测试主题','测试内容','54cefdf554dd4.png',1422851573) [ RunTime:0.000260s ]
+
+[ 2015-02-02T12:32:59+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011501s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000316s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2015-02-02T12:32:59+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-02-02T12:33:11+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010103s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000281s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000343s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001268s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000546s ]
+
+[ 2015-02-02T12:33:11+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Public/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001474s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+
+[ 2015-02-02T12:33:36+08:00 ] 192.168.0.88 /ikea-billy-klippan-story/Index/addStory
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `ikea_story` [ RunTime:0.001659s ]
+SQL: INSERT INTO `ikea_story` (`ID`,`name`,`email`,`addr`,`title`,`story`,`file`,`add_time`) VALUES ('54cefe1fb7823','薛周周','xzzphp@163.com','中国','测试主题','测试内容可垃圾的开发贷款','54cefe1fb71bb.png',1422851615) [ RunTime:0.000205s ]
+

@@ -1,0 +1,78 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="termsandcopyright.css">
+<title>Terms & Conditions | BILLY & KLIPPAN</title>
+<meta charset="UTF-8">
+<style type="text/css">
+#all-content {
+	margin:75px 50px 65px 50px;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#414244;
+}
+#top-headline h1 {
+	font-size:19px;
+	line-height:20px;
+}
+#body-text {
+	font-size:12px;
+	line-height:20px;
+}
+#body-text h1 {
+	padding:10px 0px 0px 0px;
+	font-size:14px;
+	line-height:20px;
+	font-weight:bold;
+}
+#body-text h2 {
+	padding:10px 0px 0px 0px;
+	font-size:12px;
+	line-height:20px;
+	font-weight:bold;
+}
+#close-link {
+	padding:30px 0px 20px 0px;
+}
+#close-link a {
+	color:#A2B028;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+}
+#close-link a:hover {
+	color:#A2B028;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:underline;
+}
+@media only screen and (max-width:960px) {
+#all-content {
+	margin:20px 15px 10px 15px;
+}
+}
+</style>
+</head>
+
+<body>
+<div id="all-content">
+  <div id="top-headline">
+    <h1>条款和条件</h1>
+  </div>
+  <div id="body-text">
+    <p>在对我们的请求的回复中，您已经同意了让Inter IKEA Culture Center AB收集您的关于宜家产品“BILLY” 和 “KLIPPAN”的故事以及您提供的照片，视频和个人资料，您还同意让Inter IKEA Culture Center AB根据我们的资料保密政策处理您的个人资料。同时您还同意让Inter IKEA Culture Center AB和Inter IKEA Systems B.V.在博客、因特网以及在全世界的印刷和数字出版物上分享这些故事，并且将来在位于瑞典Älmhult的宜家展览馆中展出这些故事。我们打算就以这些方式使用您发给我们的信息。</p>
+    <h2>在博客上</h2>
+    <p>我们可以在博客上分享您的故事。若是那样，我们将在博客上公布您的名讳和居住国名，从而指出这些故事的来源。我们并不打算在博客上公布您的电子邮件地址，除非您亲自在评论中或者以其它方式这样做。请注意：如果您的故事（包括您的名讳和居住国名）在博客上公布，那么这些内容和信息将可能被所有的因特网用户读取，并且将可能在所有的因特网网站上被不同的社交媒体的群体共享。</p>
+    <h2>在社交媒体上</h2>
+    <p>我们可以在视频网站YouTube以及其它社交媒体平台上发布博客内容的一部分。请注意：如果您的故事（包括您的名讳和居住国名）在Youtube上公布，那么这些内容和信息将可能在所有的因特网网站的第三方中以及在不同的社交媒体的群体中共享。</p>
+    <h2>在未来的宜家展览馆中</h2>
+    <p>将来，我们可能把您的故事在瑞典的Älmhult的宜家展览馆中进行展览。若是那样，则我们同时还可以公开您所提供的显示您的故事的来源的您的姓氏，名讳和居住国国名。</p>
+    <h2>在我们的文档中和服务器上</h2>
+    <p>对于您以硬拷贝和数字格式的形式提供的内容，我们可以保持相关记录，其中包括您所提供的您的姓氏和名讳，电子邮件地址和您的居住国相关的信息。这样做的原因之一就是以便我们能再次联系您。请注意：如果您想看看我们究竟对您的哪些个人资料进行了存档，或者如果您想修改您的任何个人资料，请随时联系我们。</p>
+    <p>我们请您在同我们分享您的故事和个人资料之前认真考虑上述条款条件。</p>
+    <p>在邮寄您的投稿之前，请阅读并同意完整的条款条件以及我们的资料保密政策。</p>
+  </div>
+  <div id="close-link"> <a href="JavaScript:window.close()">关闭此窗口</a><br>
+  </div>
+</div>
+</body>
+</html>
